@@ -6,7 +6,7 @@ class UrlManager(object):
     def get_new_url(self):
         new_url = self.new_url_list.pop()
         self.old_url_list.add(new_url)
-        return new_url;
+        return new_url
 
     def add_new_urls(self, urls):
         if len(urls) == 0 or urls is None:
