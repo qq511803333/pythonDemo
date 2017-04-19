@@ -59,6 +59,4 @@ python连接mysql用pymysql库
 我的地址
 (http://www.xuxinguang.top)
 <br /><br />
-
-
-
+在不断学习不断完善
