@@ -2595,10 +2595,10 @@ requests.packages.urllib3.disable_warnings()
 
 while 1 == 1:
     conn = pymysql.connect(
-        user='root',
-        password='guang888',
+        user='你的sql用户名',
+        password='密码',
         host='localhost',
-        database='mydatabase',
+        database='连接的数据库',
         charset="utf8"
     )
     db = conn.cursor();
@@ -2607,9 +2607,9 @@ while 1 == 1:
     result = db.fetchall()
     print(result)
     time.sleep(5)
-    sender = '931162311@qq.com'
-    receiver = '511803333@qq.com'
-    password = 'jkghxvnhtjlpbcag'
+    sender = '来源qq'
+    receiver = '接受的qq'
+    password = '授权码或者密码'
     smtp_server = 'smtp.qq.com'
     conn.close();
     for values in result:
